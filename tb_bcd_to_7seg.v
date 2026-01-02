@@ -24,12 +24,14 @@ module tb_bcd_to_7seg;
             f = seg[1];
             g = seg[0];
 
-            $display("\n t=%0t | bcd=%0d (0x%0h) | valid=%0b | seg=%b", $time, bcd, bcd, valid, seg);
-            $display("   %s   ", a ? "___" : "   ");
-            $display(" %s   %s ", f ? "|"   : " ", b ? "|"   : " ");
-            $display("   %s   ", g ? "___" : "   ");
-            $display(" %s   %s ", e ? "|"   : " ", c ? "|"   : " ");
-            $display("   %s   ", d ? "___" : "   ");
+            $display("\n[t=%0t] BCD: %0d | Valid: %b | Seg: %b", $time, bcd, valid, seg);
+            $display("  %s  ", a ? "---" : "   ");
+            $display("%s     %s", f ? "|" : " ", b ? "|" : " ");
+            $display("%s     %s", f ? "|" : " ", b ? "|" : " ");
+            $display("  %s  ", g ? "---" : "   ");
+            $display("%s     %s", e ? "|" : " ", c ? "|" : " ");
+            $display("%s     %s", e ? "|" : " ", c ? "|" : " ");
+            $display("  %s  ", d ? "---" : "   ");
         end
     endtask
 

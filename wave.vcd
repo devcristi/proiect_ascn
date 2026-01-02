@@ -1,0 +1,186 @@
+$date
+	Fri Jan  2 16:09:37 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_bcd_to_7seg $end
+$var wire 1 ! valid $end
+$var wire 7 " seg [6:0] $end
+$var reg 4 # bcd [3:0] $end
+$var integer 32 $ i [31:0] $end
+$scope module uut $end
+$var wire 4 % bcd [3:0] $end
+$var reg 7 & seg [6:0] $end
+$var reg 1 ! valid $end
+$upscope $end
+$scope task print_7seg $end
+$var reg 1 ' a $end
+$var reg 1 ( b $end
+$var reg 1 ) c $end
+$var reg 1 * d $end
+$var reg 1 + e $end
+$var reg 1 , f $end
+$var reg 1 - g $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x-
+x,
+x+
+x*
+x)
+x(
+x'
+b1111110 &
+b0 %
+b0 $
+b0 #
+b1111110 "
+1!
+$end
+#1000
+0-
+1,
+1+
+1*
+1)
+1(
+1'
+#10000
+b110000 "
+b110000 &
+b1 #
+b1 %
+b1 $
+#11000
+0,
+0+
+0*
+0'
+#20000
+b1101101 "
+b1101101 &
+b10 #
+b10 %
+b10 $
+#21000
+1-
+1+
+1*
+0)
+1'
+#30000
+b1111001 "
+b1111001 &
+b11 #
+b11 %
+b11 $
+#31000
+0+
+1)
+#40000
+b110011 "
+b110011 &
+b100 #
+b100 %
+b100 $
+#41000
+1,
+0*
+0'
+#50000
+b1011011 "
+b1011011 &
+b101 #
+b101 %
+b101 $
+#51000
+1*
+0(
+1'
+#60000
+b1011111 "
+b1011111 &
+b110 #
+b110 %
+b110 $
+#61000
+1+
+#70000
+b1110000 "
+b1110000 &
+b111 #
+b111 %
+b111 $
+#71000
+0-
+0,
+0+
+0*
+1(
+#80000
+b1111111 "
+b1111111 &
+b1000 #
+b1000 %
+b1000 $
+#81000
+1-
+1,
+1+
+1*
+#90000
+b1111011 "
+b1111011 &
+b1001 #
+b1001 %
+b1001 $
+#91000
+0+
+#100000
+0!
+b1001111 "
+b1001111 &
+b1010 #
+b1010 %
+b1010 $
+#101000
+1+
+0)
+0(
+#110000
+0!
+b1011 #
+b1011 %
+b1011 $
+#120000
+0!
+b1100 #
+b1100 %
+b1100 $
+#130000
+0!
+b1101 #
+b1101 %
+b1101 $
+#140000
+0!
+b1110 #
+b1110 %
+b1110 $
+#150000
+0!
+b1111 #
+b1111 %
+b1111 $
+#160000
+b10000 $
